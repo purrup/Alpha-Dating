@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* nav */
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem !important;
+}
+
+/* .male, .female {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.6rem;
+} */
+
+/* .fa-mars, .fa-venus {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.favorite {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* .hover-male {
+  background-color: rgb(27, 102, 187);
+  color: white
+} */
+
+/* .hover-female {
+  color: #fff;
+  background-color: rgb(243, 59, 59);
+} */
+
+.card {
+  border-radius: 50% !important;
+  margin-top: 30px;
+  box-shadow: 0 0 3px 1px rgba(160, 158, 158, 0.5);
+  transition: 0.3s;
+  cursor: pointer
+}
+
+.card-img-top {
+  border-radius: 50% !important;
+}
+
+.card:hover {
+  margin-top: 15px;
+  box-shadow: 0 3px 15px 3px rgba(100, 100, 100, 0.5);
+}
+
+
+#user-image {
+  width: 450px;
+}
+
+.card-header {
+  min-height: 50px;
+}
+
+.searchby {
+  font-size:14px;
+  font-weight: lighter;
+  color:gray;
+}
+
+/* modal */
+
+.modal-content .col-sm-5 {
+  padding: 2px;
+  width: 325px;
+  height: 325px;
+}
+
+#show-user-image img {
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.fa-heart {
+  color: #dc3545c4;
+}
+
+.social-media {
+  padding-left: 35px;
+}
+
+.social-media ul li {
+  padding: 0 15px;
+  font-size: 30px;
+  color: black;
+}
